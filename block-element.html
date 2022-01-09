@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block1 {
+            border: 5px solid orange;
+            width: 500px;
+            height: 200px;
+            padding-top: 50px;
+            padding-left: 50px;
+            margin-left: 100px;
+            background-color: brown;
+        }
+
+        .inline1 {
+            border: 5px solid red;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            margin-left: 100px;
+            background-color: blue;
+            /* inline a width-height bare komena, padding margin diye boro korleo nijossho space nite parena */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Inline Element</h2>
+    <p>
+        An inline element does not start on a new line. <br>
+
+        An inline element only takes up as much width as necessary.
+    </p>
+    <ol>
+        <li>a</li>
+        <li>br</li>
+        <li>button</li>
+        <li>img</li>
+        <li>input</li>
+        <li>label</li>
+        <li>small</li>
+        <li>span</li>
+    </ol>
+    <h2>Block Element</h2>
+    <p>
+        A block-level element always starts on a new line. <br>
+
+        A block-level element always takes up the full width available (stretches out to the left and right as far as it
+        can). <br>
+
+        A block level element has a top and a bottom margin, whereas an inline element does not.</p>
+    <ol>
+        <li>article</li>
+        <li>div</li>
+        <li>aside</li>
+        <li>figcaption</li>
+        <li>footer</li>
+        <li>form</li>
+        <li>nav</li>
+    </ol>
+    <h2>Inline-block elements</h2>
+    <p>Inline-block elements are similar to inline elements, except they can have padding and margins added on all four
+        sides.</p>
+    <ol>
+        <li>button</li>
+        <li>select</li>
+    </ol>
+    <hr>
+
+    <div class="block1">
+        <span>this is for block element practice</span>
+        <!-- jehetu div block element so div er bhitor jai thakuk block hobe -->
+    </div>
+
+    <span class="inline1">This is for inline element practice</span>
+    <a class="inline1" href="google.com">go to google</a>
+</body>
+
+</html>

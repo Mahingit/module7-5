@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes moving {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: red;
+            }
+
+            25% {
+                top: 150px;
+                background-color: green;
+
+            }
+
+            50% {
+                top: 0%;
+                background-color: red;
+            }
+
+            75% {
+                top: 150px;
+                background-color: green;
+            }
+
+            100% {
+                top: 0;
+                left: 550px;
+                background-color: red;
+            }
+        }
+
+        .box {
+            width: 600px;
+            height: 200px;
+            border: 2px solid lightgreen;
+        }
+
+        .ball {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: red;
+            position: relative;
+            animation: moving 2s ease-in-out 0.5s infinite alternate;
+            animation-play-state: running;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lets try some Animation</h1>
+    <div class="box">
+        <div class="ball"></div>
+
+    </div>
+
+</body>
+
+</html>
