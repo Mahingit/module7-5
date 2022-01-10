@@ -13,6 +13,10 @@ nav li a {
     color: red;
     font-size: 20px;
 }
+nav li a:hover{
+    background-color: lightgray;
+    color: orange;
+}
 .active{
     background-color: rgb(236, 236, 170);
     border-radius: 5px;
