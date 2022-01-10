@@ -1,4 +1,4 @@
-nav ul {
+nav > ul {
     display: flex;
 }
 
@@ -22,3 +22,19 @@ nav li a:hover{
     border-radius: 5px;
     padding: 3px 3px;
 }
+.dropdown{
+    display: none;
+}
+/* by default jeno dropdown na dekhay */
+nav > ul > li:hover > ul{
+    display: block;
+    position: absolute;
+    background-color: lightgrey;
+    padding: 0%;
+}
+/* nav diye > mane nav er child tarpor li te hover korle j li er niche ul thakbe oita khulbe, oi hover a ul er bhitorer link gular block style absolute position(jeno onno lekha bacontent a bari na khay)  */
+.dropdown li{
+    margin: 0%;
+    border: 1px solid white;
+}
+/* dropdwon li diye dropdown er bhitorer duita li er style korsi */
